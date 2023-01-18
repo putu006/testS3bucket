@@ -17,3 +17,4 @@ jobs:
         AWS_S3_BUCKET: ${{ secrets.AWSS3BUCKET }}
         AWS_ACCESS_KEY_ID: ${{ secrets.AWSACCESSKEYID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWSSECRETACCESSKEY }}
+        AWS_REGION: 'ap-south-1'
